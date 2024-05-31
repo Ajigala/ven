@@ -1,0 +1,47 @@
+body {
+  background-color: #000009 !important;
+  color: white !important;
+  font-family: "Nunito";
+}
+a {
+  color: #ffffff !important;
+  font-size: 1.2rem !important;
+}
+
+h2 {
+  font-family: "Anton";
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white !important;
+}
+#hero {
+  background-image: url(./Images/bg-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: top 50% bottom 50%;
+  background-size: cover;
+  height: 90vh;
+}
+#hero h1:nth-child(2) {
+  font-size: 3rem !important;
+}
+#hero p {
+  font-size: 1.3rem;
+  color: #d1d1d1;
+  /* width: 60%; */
+}
+.hero {
+  position: absolute;
+  top: 0;
+  left: 15%;
+}
+.arrow {
+  top: 30px;
+  left: 4%;
+}
+.arrow i {
+  font-size: 2rem;
+}
+.secondary img {
+  width: 32px;
+  height: 32px;
+}
