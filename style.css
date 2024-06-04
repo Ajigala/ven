@@ -21,6 +21,11 @@ button {
   color: #ffffff;
   padding: 5px 10px;
   border: 2px solid #ffffff;
+  transition: .5s ease-in;
+}
+button:hover{
+  background: white;
+  color: #000009;
 }
 #hero {
   background-image: url(./Images/bg-1.jpeg);
@@ -35,7 +40,7 @@ button {
 }
 #hero p {
   font-size: 1.3rem;
-  color: #d1d1d1;
+  color: #d6d6d6;
   font-weight: 600;
   /* width: 60%; */
 }
@@ -71,23 +76,37 @@ button {
   width: 300px;
   height: 360px !important;
   position: relative;
-}
-.imag-4 {
-  width: 650px;
-  height: 300px !important;
-  position: relative;
-}
-#image,
-#image2,
-#image3,
-#image4,
+  overflow: hidden !important;
+    transform-origin: center; 
+  }
+  
+  .imag-4 {
+    width: 650px;
+    height: 300px !important;
+    position: relative;
+    transform-origin: center; 
+  }
+  #image,
+  #image2,
+  #image3,
+  #image4,
 #image5,
 #image6,
 #image7 {
   width: 100%;
   height: 300px;
   opacity: 1;
-  transition: opacity 1s ease-in-out;
+  transition:  .4s ease;
+}
+#image:hover,
+#image2:hover,
+#image3:hover,
+#image4:hover,
+#image5:hover,
+#image6:hover,
+#image7:hover{
+  transform: scale(1.1);
+  transform-origin: center; 
 }
 #blog p {
   font-size: 1.13rem;

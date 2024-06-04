@@ -3,7 +3,7 @@ function changeBackground(imageUrl) {
   heroElement.style.backgroundImage = `url(${imageUrl})`;
 }
 
-//sea creature
+//Sea creature
 window.onload = function () {
   function createImageSwitcher(imageId, images, interval) {
     let currentIndex = 0;
